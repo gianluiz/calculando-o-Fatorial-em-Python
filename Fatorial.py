@@ -2,7 +2,7 @@ while True: #tratamento de erros inicial, caso o usuário não digite um número
     try:
         n = int(input("Qual o número de Fatorial você quer ver?"))
         break
-    except:
+    except ValueError:
         print("Tem certeza que você digitou um número?Tente novamente, pois houve um erro...")
 
 #abaixo começa o programa principal
